@@ -1,11 +1,28 @@
-@media (min-width: 320px)  {
-  .tables {
+.tables {
     background-color: aliceblue;
-    height: 50vh;
+    height: 235vh;
     width: 50wh;
     padding-top: 100px;
     position: center;
     margin-left: 200px;
     margin-right: 200px;
    }
+
+.text-primary {
+  margin-left: 30px;
+  margin-right: 100px;
+  color: green;
+  font-weight: bold;
+}
+
+.text-danger {
+  margin-left: 30px;
+  margin-right: 100px;
+  color: red;
+  font-weight: bold;
+}
+
+.fw-bold {
+  margin-left: 50px;
+  
 }
