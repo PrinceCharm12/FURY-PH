@@ -3,52 +3,9 @@
     background-color: aliceblue;
     height: 50vh;
     width: 50wh;
-    padding-bottom: 100px;
     padding-top: 100px;
     position: center;
     margin-left: 200px;
     margin-right: 200px;
    }
 }
-
-    .table-container {
-      overflow-x: auto;
-    }
-    
-    .responsive-table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    
-    .responsive-table th,
-    .responsive-table td {
-      padding: 8px;
-      text-align: left;
-      white-space: nowrap;
-    }
-    
-    @media (max-width: 768px) {
-      .responsive-table {
-        display: block;
-      }
-      
-      .responsive-table thead,
-      .responsive-table tbody,
-      .responsive-table tr {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      
-      .responsive-table thead {
-        border-bottom: 1px solid #ddd;
-      }
-      
-      .responsive-table th,
-      .responsive-table td {
-        width: 100%;
-      }
-      
-      .responsive-table td:before {
-        font-weight: bold;
-      }
-    }
