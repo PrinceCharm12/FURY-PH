@@ -200,6 +200,16 @@ body {
   color: var(--marigold);
 }
 
+.card-price1 {
+  color: green;
+  font-weight: bold;
+}
+
+.card-price2 {
+  color: red;
+  font-weight: bold;
+}
+
 .btn {
   margin-inline: auto;
   color: var(--eerie-black-1);
